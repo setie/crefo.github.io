@@ -4179,6 +4179,40 @@ dialog {
     position: absolute;
 }
 
+/***
+.hero{
+          background: url(img/thumnail/_DSC0145.jpg);
+          background-size: cover;
+          box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+          height: 80%;
+        }
+
+ .intro-text {
+          padding-top: 40%;
+          color: rgba(255, 255, 255, 1);
+          text-align: center;
+        }
+
+        @media only screen and (min-width: 40.063em) {
+          .intro-text{
+            padding-top: 25%;
+          }
+        }
+
+        @media only screen and (min-width: 64.063em) {
+          .intro-text{
+            padding-top: 18%;
+          }
+        }
+
+        .intro-text p{
+          font-family: 'Shadows Into Light', cursive;
+          font-size: 44px;
+        }
+
+
+        /***End****/
+
 @media print {
   dialog, .reveal-modal, dialog {
     display: none;
